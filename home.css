@@ -5,22 +5,19 @@ body {
 
 .main {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  height: 600px;
-  position: relative;
+  height: 100vh;
 }
 
 .hi {
   width: 800px;
   height: 150px;
-  margin: 0px;
-  position: absolute;
-  top: 130px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 200px;
 }
 
 .intro {
@@ -28,13 +25,13 @@ body {
 }
 
 .links {
+  margin: 0px;
   width: 1200px;
   height: 300px;
-  position: absolute;
-  top: 280px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 200px;
 }
 
 .about,
