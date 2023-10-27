@@ -145,8 +145,8 @@ body {
   }
 
   .box {
-    width: 80px;
-    height: 80px;
+    width: 79px;
+    height: 79px;
     border-radius: 30%;
     background-color: white;
     display: flex;
