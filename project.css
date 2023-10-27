@@ -136,7 +136,7 @@ li {
   }
 
   .navbar {
-    width: 400px;
+    width: 80vw;
     height: 100px;
     margin-bottom: 10px;
     display: flex;
