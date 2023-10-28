@@ -9,6 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  width: 100vw;
 }
 
 .hi {
@@ -47,8 +48,8 @@ body {
 }
 
 .box {
-  width: 199px;
-  height: 199px;
+  width: 198px;
+  height: 198px;
   border-radius: 30%;
   background-color: white;
   display: flex;
@@ -181,5 +182,17 @@ body {
   .box:hover .pic {
     opacity: 0.5;
     cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
   }
 }
