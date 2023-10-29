@@ -4,11 +4,11 @@ body {
 }
 
 .main {
-  height: 870vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-top: 0px;
 }
 
 .navbar {
@@ -236,12 +236,11 @@ li {
   }
 
   .main {
-    height: 1059vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: -10px;
+    margin-top: 8px;
   }
 
   .navbar {
@@ -251,7 +250,6 @@ li {
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin-top: 0px;
   }
 
   .button {

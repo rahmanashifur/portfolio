@@ -4,7 +4,6 @@ body {
 }
 
 .main {
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -298,7 +297,6 @@ a {
   }
 
   .main {
-    height: 230.5vh;
     display: flex;
     align-items: center;
     justify-content: center;
