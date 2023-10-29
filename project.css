@@ -229,6 +229,11 @@ li {
 }
 
 @media only screen and (max-width: 480px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
   body {
     background-color: whitesmoke;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
@@ -240,11 +245,10 @@ li {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 8px;
+    margin-top: 0px;
   }
 
   .navbar {
-    width: 80vw;
     height: 100px;
     margin-bottom: 10px;
     display: flex;
@@ -347,24 +351,23 @@ li {
   }
 
   .moreinfo {
-    width: 100vw;
-    height: 2900px;
+    height: 1400px;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
   }
 
   .section {
-    width: 100vw;
-    height: 400px;
+    width: 400px;
+    height: 250px;
     display: flex;
-  }
-
-  .two {
-    height: 1000px;
+    margin-bottom: 30px;
   }
 
   .screen {
-    width: 800px;
     height: 400px;
     display: flex;
     justify-content: center;
@@ -378,7 +381,6 @@ li {
   }
 
   .mobileSection {
-    width: 100vw;
     height: 650px;
     display: flex;
     margin-bottom: 20px;
@@ -387,7 +389,6 @@ li {
   }
 
   .mobileScreen {
-    width: 800px;
     height: 650px;
     display: flex;
     justify-content: center;
