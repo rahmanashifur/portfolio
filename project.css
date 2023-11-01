@@ -386,6 +386,7 @@ li {
     margin-bottom: 20px;
     justify-content: center;
     align-items: center;
+    margin-right: 119px;
   }
 
   .mobileScreen {
@@ -410,6 +411,10 @@ li {
 
   .right {
     flex-direction: row-reverse;
+  }
+
+  .mobileRight {
+    margin-left: 250px;
   }
 
   .text {
