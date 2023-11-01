@@ -386,7 +386,7 @@ li {
     margin-bottom: 20px;
     justify-content: center;
     align-items: center;
-    margin-right: 119px;
+    margin-right: 125px;
   }
 
   .mobileScreen {
@@ -414,7 +414,7 @@ li {
   }
 
   .mobileRight {
-    margin-left: 250px;
+    margin-left: 253px;
   }
 
   .text {
@@ -438,7 +438,10 @@ li {
 
   .soon {
     margin-top: 30px;
-    font-size: 30px;
+    font-size: 25px;
     color: red;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
   }
 }
