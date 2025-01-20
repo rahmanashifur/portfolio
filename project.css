@@ -228,6 +228,10 @@ li {
   color: red;
 }
 
+#scc {
+  border: px solid;
+}
+
 @media only screen and (max-width: 480px) {
   html,
   body {
